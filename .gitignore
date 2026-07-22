@@ -232,11 +232,13 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Raw data
+# Source and student-response data
 data/raw/*
+data/processed/*.csv
 
-# Keep directory structure
+# Preserve directories
 !data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Temporary outputs
 .DS_Store
