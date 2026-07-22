@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Environment variables and API keys
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data
+data/raw/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+
+# Temporary outputs
+.DS_Store
+Thumbs.db
